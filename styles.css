@@ -1,0 +1,205 @@
+{
+    font-family Arial, sans-serif;
+    margin 0;
+    padding 0;
+    background linear-gradient(135deg, #f0f0f0, #ccc);
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ff1919;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #354555; /* Dark blue */
+            color: #ffffff; /* White */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgba(128, 109, 240, 0.747); /* Red */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .upcoming-events {
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .upcoming-events h2 {
+            color: #003366; /* Dark blue */
+            margin-top: 0;
+        }
+
+        .upcoming-events ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .upcoming-events li {
+            margin-bottom: 10px;
+        }
+
+        .trumpet-img {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #c4cbd1; /* Dark blue */
+            padding: 20px;
+            text-align: center;
+            color: #ffffff; /* White */
+        }
+
+        footer img {
+            max-width: 100%;
+        }
+    </style>
+}
+header {
+    background: linear-gradient(135deg, #e50000, #0033cc); /* Red and Blue */
+    color: #181818;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.home-link {
+    color: rgb(61, 49, 49);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Transition for smooth color change */
+}
+
+.home-link:hover {
+    color: red;
+}
+nav {
+    background: rgb(201, 201, 204) 
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+nav a {
+    color: #fff; /* White */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+nav a:hover {
+    color: #0400ff; /* Red */
+    text-decoration: underline;
+}
+#passwordForm {
+    text-align: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 5px solid #0033cc; /* Blue */
+}
+.video-container img {
+    max-height: 300px; /* Set the maximum height of each image */
+    max-width: 100%; /* Maintain aspect ratio */
+    display: block;
+    margin: 10px auto; /* Add some margin for spacing between images */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+footer {
+    background: linear-gradient(135deg, rgb(250, 247, 247), #0041cc88); /* Red and Blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly with space between */
+}
+
+.photo-gallery img {
+    max-width: calc(33% - 20px); /* Adjust the width of each image */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the start of the flex container */
+    align-items: flex-start; /* Align items to the top of the flex container */
+}
+
+.photo-gallery img {
+    width: calc(33% - 20px); /* Adjust the width of each image */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.upcoming-events {
+    margin-top: 30px;
+}
+
+.upcoming-events h2 {
+    text-align: center;
+}
+
+.upcoming-events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.upcoming-events li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-events li strong {
+    font-weight: bold;
+}
+
+.upcoming-events li:nth-child(even) {
+    background-color: #e9e9e9;
+}
+.trumpet-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.trumpet-img img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
